@@ -44,8 +44,8 @@ main {
 
 .equalizer-img {
   width: 14.6093rem;
-  margin-top: 4rem;
   padding-left: 2.4rem;
+  fill: #191826;
 }
 
 .content {
@@ -78,6 +78,7 @@ main {
   width: 28rem;
   left: 50%;
   transform: translateX(-50%);
+  height: 42rem;
 }
 
 .premium {
@@ -86,6 +87,8 @@ main {
   z-index: 999;
   position: relative;
   padding: 4.8rem 3.7rem;
+  width: 100%;
+  transform: translateY(-11rem);
 }
 
 .premium h2 {
@@ -105,6 +108,21 @@ main {
   line-height: 2.8rem;
 }
 
+.premium .price {
+  color: #fcfaf9;
+  font-size: 6.5rem;
+  font-weight: 700;
+  line-height: 5.2rem;
+  margin-top: 3.6rem;
+}
+
+.premium .price span {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  letter-spacing: -0.02rem;
+}
+
 button {
   display: block;
   align-items: center;
@@ -117,15 +135,21 @@ button {
   line-height: 3.2rem;
   letter-spacing: -0.018rem;
   border: none;
+  margin-top: 3.2rem;
+  display: flex;
+  gap: 0.792rem;
 }
 
 .button1 {
   background-color: #191826;
   color: #fcfaf9;
+  transition: 0.5s;
 }
 
 .button2 {
   color: #191826;
+  margin-top: 1.6rem;
+  transition: 0.5s;
 }
 
 .button1 img {
@@ -139,7 +163,7 @@ button {
 }
 
 .main-footer {
-  padding: 4rem 2.4rem 0;
+  padding: 0rem 2.4rem 0;
 }
 
 .address {
@@ -148,6 +172,7 @@ button {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
+  margin-top: 3.2rem;
 }
 
 .address a {
@@ -158,8 +183,10 @@ button {
 }
 
 .footer-icons {
-  padding: 0 2.4rem;
+  margin-top: 6.4rem;
   padding-bottom: 8rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .button1:hover {
@@ -174,7 +201,9 @@ button {
   transition: 0.5s;
 }
 
-.icons:hover path {
+.icon1,
+.icon2,
+.icon3 :hover {
   color: #fa7453;
   cursor: pointer;
   transition: 0.4s;

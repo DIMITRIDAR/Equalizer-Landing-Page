@@ -19,22 +19,16 @@ main {
   margin-top: 16.6rem;
 }
 
-.main-content {
-  padding: 6.4rem 2.4rem 0rem;
-  width: 32.7rem;
-}
-
 .main-content h1 {
   font-size: 4rem;
-  width: 100%;
   color: #191826;
   font-weight: 700;
   line-height: 4.8rem;
   letter-spacing: -0.0455rem;
+  margin-top: 6.4rem;
 }
 
 .main-content p {
-  width: 100%;
   color: #191826;
   font-size: 1.6rem;
   font-weight: 400;
@@ -44,7 +38,6 @@ main {
 
 .equalizer-img {
   width: 14.6093rem;
-  padding-left: 2.4rem;
   fill: #191826;
 }
 
@@ -87,12 +80,10 @@ main {
   z-index: 999;
   position: relative;
   padding: 4.8rem 3.7rem;
-  width: 100%;
   transform: translateY(-11rem);
 }
 
 .premium h2 {
-  width: 30.2rem;
   color: #fcfaf9;
   font-size: 3.2rem;
   font-weight: 700;
@@ -100,7 +91,6 @@ main {
 }
 
 .premium p {
-  width: 30.2rem;
   color: #fcfaf9;
   font-size: 1.8rem;
   margin-top: 1.2rem;
@@ -123,7 +113,14 @@ main {
   letter-spacing: -0.02rem;
 }
 
-button {
+.buttons {
+  margin-top: 3.2rem;
+  display: flex;
+  gap: 1.6rem;
+  flex-direction: column;
+}
+
+.button {
   display: block;
   align-items: center;
   justify-content: center;
@@ -135,7 +132,6 @@ button {
   line-height: 3.2rem;
   letter-spacing: -0.018rem;
   border: none;
-  margin-top: 3.2rem;
   display: flex;
   gap: 0.792rem;
 }
@@ -148,7 +144,6 @@ button {
 
 .button2 {
   color: #191826;
-  margin-top: 1.6rem;
   transition: 0.5s;
 }
 
@@ -167,7 +162,6 @@ button {
 }
 
 .address {
-  width: 32.7rem;
   color: #191826;
   font-size: 1.6rem;
   font-weight: 400;

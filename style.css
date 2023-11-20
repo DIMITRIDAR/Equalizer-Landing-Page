@@ -181,6 +181,7 @@ main {
   padding-bottom: 8rem;
   display: flex;
   gap: 2rem;
+  transition: 0.3s;
 }
 
 .button1:hover {
@@ -195,10 +196,8 @@ main {
   transition: 0.5s;
 }
 
-.icon1,
-.icon2,
-.icon3 :hover {
-  color: #fa7453;
+.footer-icons :hover {
+  fill: #fa7453;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.3s;
 }

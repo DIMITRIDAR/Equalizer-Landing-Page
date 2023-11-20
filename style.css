@@ -48,6 +48,10 @@ main {
   padding: 4rem 2.4rem 0rem;
 }
 
+.container-card {
+  position: relative;
+}
+
 .mobile-picture {
   background: #191826;
   border-radius: 1.2rem;
@@ -77,10 +81,11 @@ main {
 .premium {
   background: #fa7453;
   border-radius: 1.2rem;
-  z-index: 999;
-  position: relative;
+  z-index: 1;
+  position: absolute;
   padding: 4.8rem 3.7rem;
-  transform: translateY(-11rem);
+  top: 390px;
+  width: 100%;
 }
 
 .premium h2 {
@@ -139,12 +144,12 @@ main {
 .button1 {
   background-color: #191826;
   color: #fcfaf9;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .button2 {
   color: #191826;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .button1 img {
@@ -159,6 +164,7 @@ main {
 
 .main-footer {
   padding: 0rem 2.4rem 0;
+  margin-top: 39rem;
 }
 
 .address {
@@ -187,13 +193,13 @@ main {
 .button1:hover {
   background-color: #66e2dc;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .button2:hover {
   background-color: #ffb964;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .footer-icons :hover {

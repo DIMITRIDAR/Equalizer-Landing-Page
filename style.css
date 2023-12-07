@@ -172,7 +172,6 @@ main {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.6rem;
-  margin-top: 3.2rem;
   width: 34ch;
 }
 
@@ -254,7 +253,8 @@ main {
 
   .footer-content {
     display: flex;
-    gap: 23rem;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .main-footer {
@@ -263,7 +263,7 @@ main {
   }
 
   .address {
-    width: 33ch;
+    width: 41ch;
   }
 
   .address a {

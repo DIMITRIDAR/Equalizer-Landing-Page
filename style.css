@@ -17,6 +17,9 @@ body {
   background-image: url(./assets/bg-main-mobile.png);
   background-repeat: no-repeat;
   background-position: top -20rem right -20rem;
+}
+
+.content {
   padding: 4rem 2.4rem 0rem;
 }
 
@@ -171,6 +174,7 @@ main {
   font-weight: 400;
   line-height: 2.6rem;
   width: 34ch;
+  margin-top: 3.2rem;
 }
 
 .address span {
@@ -208,7 +212,6 @@ main {
   body {
     background-image: url(./assets/bg-main-tablet.png);
     background-position: top -25rem right -12rem;
-    padding: 4rem 2.4rem 0rem;
     background-repeat: no-repeat;
   }
 
@@ -216,12 +219,14 @@ main {
     background-image: url(./assets/bg-pattern-1.svg);
     background-repeat: no-repeat;
     background-position: top -12rem right -8rem;
+    padding: 4rem 2.4rem 0rem;
   }
 
   .container-card {
     display: flex;
     justify-content: center;
-    margin-top: 24.9rem;
+    margin: 24.9rem auto 0;
+    width: fit-content;
   }
 
   .mobile-picture {
